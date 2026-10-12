@@ -1,0 +1,7 @@
+INTERNATIONAL STANDARD ISO 9001:2015
+Clause 8.4: Control of externally provided processes, products, and services
+
+8.4.1 General Requirements: The organization shall ensure that externally provided processes, products and services conform to requirements, establishing criteria for the evaluation, selection, monitoring of performance, and re-evaluation of external providers.
+8.4.2 Traceability & Calibration: The organization shall maintain documented information of measuring equipment calibration traceable to international or national measurement standards.
+8.4.3 Corrective Action Procedures: The organization shall establish a defined corrective and preventive action (CAPA) workflow with a maximum root-cause closure window of 30 business days.
+8.4.4 Risk Assessment: Documented risk assessment must be performed for all critical suppliers prior to purchase order release.

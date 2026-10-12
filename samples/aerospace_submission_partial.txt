@@ -1,0 +1,14 @@
+APEX PROPULSION SYSTEMS - QUALIFICATION SUBMISSION REPORT
+DOCUMENT ID: APX-CONFORMANCE-2026-B
+MANIFOLD PART NO: APX-9921-CRYOMOD
+
+1.0 DESIGN CALCULATIONS & FINITE ELEMENT ANALYSIS
+Design calculations were conducted per ASME Section VIII Division 2. Finite element stress analysis verified a peak von Mises stress of 412 MPa under max operating pressure (180 bar). The structural safety margin factor is 2.74x, exceeding the mandatory 2.5x threshold.
+
+2.0 MATERIAL SPECIFICATION & HEAT TREATMENT
+Fabricated from certified vacuum-induction melted Inconel 718 per AMS 5662. Solution annealed at 980°C for 1 hour followed by two-stage precipitation hardening. Chemical composition confirms Nickel 52.8%, Chromium 19.1%, Molybdenum 3.05%.
+
+3.0 TESTING PROCEDURE & VERIFICATION LOG
+Hydrostatic proof pressure testing executed at 1.5x design pressure (270 bar) held for 15 minutes with zero pressure decay. Cryogenic thermal shock cycling completed for 25 cycles (-196°C to +120°C). Helium mass spectrometer leak rate was 0.8 x 10^-8 atm cc/sec.
+
+[NOTE / DISCREPANCY: Non-destructive inspection requirements, radiographic X-ray scans, and FPI logs are missing in this submittal and scheduled for subsequent subcontract review.]

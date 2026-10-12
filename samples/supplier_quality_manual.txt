@@ -1,0 +1,13 @@
+GLOBAL MANUFACTURING CORP - QUALITY POLICY MANUAL (REV 5.2)
+
+1.0 SUPPLIER SELECTION & EVALUATION
+All tier-1 and tier-2 suppliers undergo quarterly scorecard evaluations, initial qualification questionnaires, and periodic supplier audits. Documented selection records are maintained in the ERP system.
+
+2.0 EQUIPMENT CALIBRATION & METROLOGY
+All dimensional inspection gauges, torque wrenches, and digital micrometers are calibrated every 6 months with calibration certs traceable directly to NIST standards.
+
+3.0 QUALITY INCIDENT ESCALATION
+When a non-conformance is raised, an incident log is generated. Investigation commences within 10 days, but closure timelines depend on production workload without a fixed 30-day mandate.
+
+4.0 SUPPLIER RISK PROFILES
+Supplier assessments focus primarily on financial stability and lead times. Formal failure modes risk matrices (FMEA) for suppliers have not yet been formalized into standard operating procedures.

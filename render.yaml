@@ -1,0 +1,43 @@
+# Render Blueprint: FastAPI backend (Docker) + managed PostgreSQL + managed Redis (Key Value).
+# The React frontend is deployed separately on Vercel (see README).
+services:
+  - type: web
+    name: compliance-checker-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    # sentence-transformers + torch need more than the 512 MB free tier; "starter" or above.
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: compliance-db
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: compliance-redis
+          property: connectionString
+      - key: USE_IN_MEMORY_REDIS
+        value: "false"
+      - key: VECTOR_BACKEND
+        value: chroma
+      - key: DEFAULT_LLM_PROVIDER
+        value: mock
+      # Set this to your Vercel production URL after the frontend is deployed.
+      - key: CORS_ORIGINS
+        value: '["https://YOUR-APP.vercel.app"]'
+      # Optional provider keys (add in the Render dashboard, not in git):
+      # GEMINI_API_KEY / OPENAI_API_KEY / ANTHROPIC_API_KEY
+
+  - type: keyvalue
+    name: compliance-redis
+    plan: free
+    ipAllowList: []   # internal connections only
+
+databases:
+  - name: compliance-db
+    plan: free
+    databaseName: compliance
+    user: compliance
